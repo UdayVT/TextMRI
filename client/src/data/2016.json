@@ -1,0 +1,46 @@
+{
+    "title": "2016 Debate #1",
+    "host": "Hofstra Universty",
+    "location": "Hempstead, NY",
+    "date": "2016-09-26T16:00:00.000Z",
+    "speakers": [
+        {
+            "speaker": "Donald Trump",
+            "role": "Republican",
+            "talk-time": 48,
+            "PulpScore": 87
+        },
+        {
+            "speaker": "Hilary Clinton",
+            "role": "Democratic",
+            "talk-time": 42,
+            "PulpScore": 68
+        },
+        {
+            "speaker": "Jim Holt",
+            "role": "Moderator, CBS",
+            "talk-time": 10,
+            "PulpScore": 56
+        }
+    ],
+    "transcript": [ 
+        {
+        "turn_number": 1,
+        "speaker": "Holt",
+        "content": "Good evening from Hofstra University in Hempstead, New York. I'm Lester Holt, anchor of “NBC Nightly News.” I want to welcome you to the first presidential debate. The participants tonight are Donald Trump and Hillary Clinton. This debate is sponsored by the Commission on Presidential Debates, a nonpartisan, nonprofit organization. The commission drafted tonight's format, and the rules have been agreed to by the campaigns. The 90-minute debate is divided into six segments, each 15 minutes long. We'll explore three topic areas tonight: Achieving prosperity; America's direction; and securing America. At the start of each segment, I will ask the same lead-off question to both candidates, and they will each have up to two minutes to respond. From that point until the end of the segment, we'll have an open discussion. The questions are mine and have not been shared with the commission or the campaigns. The audience here in the room has agreed to remain silent so that we can focus on what the candidates are saying. I will invite you to applaud, however, at this moment, as we welcome the candidates: Democratic nominee for president of the United States, Hillary Clinton, and Republican nominee for president of the United States, Donald J. Trump. [applause]",
+        "conversion-phase": "Introduction",
+        "section-label": "Welcome",
+        "speaker-purpose": "To Inform",
+        "speaker-sentiment": "Warm",
+        "speaker-tone": "Professional",
+        "topic-start": true,
+        "topic-end": false,
+        "interruppted": false,
+        "interrupting": false,
+        "turn-length": "Medium",
+        "appeal": "Strong",
+        "distortions": "Very Low",
+        "batches": ["Strong Start, Social Setup", "Style Points", "Getting Specific", "Audience Sentiment"]
+        }
+    ]
+}

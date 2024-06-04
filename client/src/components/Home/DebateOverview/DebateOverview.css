@@ -1,0 +1,74 @@
+.debate-overview {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+  }
+  
+  .debate-details, .speakers, .talk-time, .pulp-score {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    border: 1px solid #e6e6e6;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .debate-details h2, .speakers h3, .talk-time h3, .pulp-score h3 {
+    margin-bottom: 8px;
+    margin-top: 0px;
+  }
+
+  .debate-details h2{
+    font-size: 20px;
+  }
+
+  p{
+    font-size: 12px;
+  }
+  
+  .speakers ul, .talk-time ul, .pulp-score ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .speakers li, .talk-time li, .pulp-score li {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .speakers img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .speakers h3, .talk-time h3, .pulp-score h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .debate-details p, .talk-time p, .pulp-score p {
+    margin: 15px 0;
+  }
+  
+  .debate-details {
+    flex: 2;
+    text-align: left;
+  }
+  
+  .speakers {
+    flex: 4;
+    text-align: center;
+  }
+  
+  .talk-time, .pulp-score {
+    flex: 1;
+    text-align: center;
+  }
+  
+  

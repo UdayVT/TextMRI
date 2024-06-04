@@ -1,0 +1,83 @@
+
+{
+  "Layer 1 - Transcript Base":
+      {
+        "turn_number": null,
+        "speaker": "",
+        "role": "",
+        "content": ""
+      },
+  "Layer 1 (Unified) - includes debate/global level metedata":
+      {
+        "title": "",
+        "date": "",
+        "location": "",
+        "transcript": [
+          {
+            "turn_number": null,
+            "speaker": "",
+            "role": "",
+            "content": ""
+          }
+        ]
+      },
+  "Layer 2 - topic":
+  {
+    "turn_number": null,
+    "speaker": "",
+    "role": "",
+    "content": "",
+    "topic": "",
+    "stance": ""
+  },
+  "Layer 3 - Reference":
+  {
+    "turn_number": null,
+    "speaker": "",
+    "role": "",
+    "content": "",
+    "references": [
+      {
+        "type": "",
+        "description": "",
+        "source": ""
+      }
+    ]
+  },
+  "Layer 4 - Turn by Turn":
+  {
+    "actor": "",
+    "role": "",
+    "named_entities": [],
+    "sentence_type_ratios": {"declarative": 0, "interrogative": 0, "imperative": 0, "exclamatory": 0},
+    "voice_usage_ratios": {"active": 0, "passive": 0},
+    "pos_distribution": {"noun": 0, "verb": 0, "adjective": 0, "adverb": 0},
+    "word_distribution": {"unique_words": 0, "common_words": 0},
+    "topics": {},
+    "claims": [{"type": "", "supported": false, "text": ""}],
+    "register": {"formal": 0, "informal": 0},
+    "epl_averages": {"ethos": 0, "pathos": 0, "logos": 0},
+    "biases": []
+  },
+  "Topics Schema -":
+  {
+    "topic": "",
+    "turns": [],
+    "coverage": "",
+    "proportions": {}
+  },
+  "Reference Bank - ": 
+  {
+      "reference": "",
+      "category": "",
+      "time": "",
+      "media_type": "",
+      "source_location": ""
+  },
+  "Executive Summary - ":
+  {
+    "summary": "",
+    "predicted_winner": "",
+    "key_findings": []
+  }
+}

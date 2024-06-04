@@ -1,0 +1,91 @@
+.main {
+    display: flex;
+    width: 100%;
+}
+
+.debate-container {
+    width: 75%;
+}
+
+.sidebar {
+    width: 25%;
+    /* Additional styles for the right side */
+}
+
+.debate-selector {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.debate-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.debate-button:hover
+{
+    background-color: whitesmoke;
+}
+
+.Collapsible {
+    background-color: white;
+    margin-left: 75px;
+    border: 0.1px solid black;
+    border-radius: 7px;
+    margin-top: 50px;
+    padding: 2px;
+
+}
+
+.Collapsible__contentInner {
+    padding: 10px;
+    border-top: 0;
+  }
+  
+  .Collapsible__trigger {
+    display: block;
+    font-weight: 400;
+    text-decoration: none;
+    position: relative;
+    padding: 10px;
+    background: white;
+    color: black;
+  
+  
+    &:after {
+      font-family: 'FontAwesome';
+      content: '\f107';
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      display: block;
+      transition: transform 300ms;
+    }
+  
+    &.is-open {
+      &:after {
+        transform: rotateZ(180deg);
+      }
+    }
+  
+    &.is-disabled {
+      opacity: 0.5;
+      background-color: grey;
+    }
+  }
+  
+  .CustomTriggerCSS {
+    background-color: lightcoral;
+    transition: background-color 200ms ease;
+    
+    
+  }
+  
+  .CustomTriggerCSS--open {
+    background-color: darkslateblue;
+  }
